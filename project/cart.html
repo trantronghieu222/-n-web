@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/cart.css">
+    <!-- BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>HHT Shop</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+            <div class="logo">hht shop</div>
+            <div class="nav">
+                <ul id="main-menu">
+                    <li><a class="menu-nav active" href="index.html">Trang chủ</a></li>
+                    <li class="menu_sp"><a class="menu-nav" href="product.html"><i class='bx bx-chevron-down' ></i>Sản phẩm</a>
+                        <ul class="menu_product">
+                            <li><a href="product/ao.html">Áo<i class='bx bx-chevron-down' ></i></a>
+                                <ul class="menu_product mp1">
+                                    <li><a href="#">Áo sơ mi</a></li>
+                                    <li><a href="#">Áo thun</a></li>
+                                    <li><a href="#">Áo khoác</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="product/quan.html">Quần<i class='bx bx-chevron-down' ></i></a>
+                                <ul class="menu_product mp2">
+                                    <li><a href="#">Quần dài</a></li>
+                                    <li><a href="#">Quần ngắn</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="product/giay.html">Giày</a></li>
+                            <li><a href="product/khac.html">Khác<i class='bx bx-chevron-down' ></i></a>
+                                <ul class="menu_product mp3">
+                                    <li><a href="#">Nón</a></li>
+                                    <li><a href="#">Balo</a></li>
+                                    <li><a href="#">Thắt lưng</a></li>
+                                    <li><a href="#">Mắt kính</a></li>
+                                    <li><a href="#">Khăn</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-nav" href="about.html">Thông tin</a></li>
+                    <li><a class="menu-nav" href="contact.html">Liên lạc</a></li>
+                </ul>
+            </div>
+            <div class="box-icon">
+                <a href="Login.html"><i class='bx bxs-user-circle'></i><span>Login</span></a>
+                <a href="cart.html"><i class='bx bxs-cart'></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shopping Cart -->
+    <section>
+        <div class="container">
+            <h1>Giỏ Hàng</h1>
+            <table style="width:80%;">
+                <tr style="background: #f5f3f3;">
+                    <th>Hình ảnh</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Size</th>
+                    <th>Đơn giá</th>
+                    <th>Số lượng</th>
+                    <th>Xóa</th>
+                </tr>
+                <tbody id="giohang">
+                    <tr>
+                        <td><img src="img/Nam/Aothun/Aothun1.jpg" alt=""></td>
+                        <td><p>Áo thun cổ tròn</p></td>
+                        <td>XL</td>
+                        <td><p>244.000đ</p></td>
+                        <td>
+                            <div class="wrapper">
+                                <span class="minus">-</span>
+                                <span class="num">1</span>
+                                <span class="plus">+</span>
+                            </div>
+                        </td>
+                        <td><a href="#"><i class='bx bxs-trash' ></i></a></td>
+                    </tr>
+                </tbody>
+                <tr style="background: #f5f3f3;">
+                    <th colspan="2">Tổng đơn hàng: 244.000đ</th>
+                    <th colspan="2"><a href="product.html" class="dhn">Mua Tiếp</a></th>
+                    <th colspan="2"><a href="#" class="dhn">Đặt Hàng</a></th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="f1">
+                    GỌI MUA HÀNG(8:30 - 17:00) <br>
+                    <a href="#"><i class='bx bxs-phone'>999 999 9999</i></a>
+                    <p>Tất cả các ngày trong tuần</p>
+                </div>
+                <div class="f2">
+                    GỌI MUA HÀNG(8:30 - 17:00) <br>
+                    <a href="#"><i class='bx bxs-phone'>999 999 9999</i></a>
+                    <p>Tất cả các ngày trong tuần</p>
+                </div>
+                <div class="f3">
+                    ĐĂNG KÍ NHẬN THÔNG TIN MỚI
+                    <form class="sub">
+                        <input type="number">
+                        <button>Đăng kí</button>
+                    </form>
+                </div>
+                <div class="f4">
+                    THEO DÕI CHÚNG TÔI<br>
+                    <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+            <div class="footer-bot">
+                <div class="footer-bottom">
+                    <div class="f5">
+                        HỖ TRỢ KHÁCH HÀNG
+                        <ul>
+                            <li><a href="#">Hướng dẫn mua hàng</a></li>
+                            <li><a href="#">Chính sách đổi/trả</a></li>
+                            <li><a href="#">Hình thức thanh toán</a></li>
+                            <li><a href="#">Chính sách giao hàng</a></li>
+                            <li><a href="#">Thông tin bảo mật</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="f6">
+                        HỆ THỐNG CỬA HÀNG
+                        <p>HHT Shop
+                        <br> Địa chỉ: Chung Cư Đông Hải, Tô Ký, Tân Chánh Hiệp, Quận 12
+                        <br> Phone : 033 892 7972</p>
+                    </div>
+                    <div class="f7">
+                        VỀ CHÚNG TÔI
+                        <p>Với hơn 20 cửa hàng trải dài cả nước, HHT SHOP hy vọng sẽ mang đến sự phục vụ chu đáo cho tất cả các khách hàng. 
+                            Hệ thống cửa hàng thời trang HHT luôn luôn lắng nghe những ý kiến đóng góp từ các khách hàng với mục tiêu đẩy mạnh dịch vụ, 
+                            mở rộng hệ thống và làm hài lòng những vị khách đến trên toàn quốc.
+                        </p>
+                    </div>
+                    <div class="f8">
+                        FANPAGE CHÚNG TÔI
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const plus = document.querySelector(".plus"),
+         minus = document.querySelector(".minus"),
+         num = document.querySelector(".num");
+         let a = 1;
+         plus.addEventListener("click", ()=>{
+           a++;
+           a = (a < 10) ? + a : a;
+           num.innerText = a;
+         });
+     
+         minus.addEventListener("click", ()=>{
+           if(a > 1){
+             a--;
+             a = (a < 10) ? + a : a;
+             num.innerText = a;
+           }
+         });
+     
+    </script>
+</body>
+</html>
