@@ -89,7 +89,7 @@
                 <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">Đăng nhập</a>
+                <a class="btn btn-default submit" href="index.html" onclick="success_login()">Đăng nhập</a>
                 <a class="reset_pass" href="#">Quên mật khẩu?</a>
               </div>
 
@@ -205,5 +205,10 @@
     </div>
   </footer>
   <script src="js/script.js"></script>
+  <script>
+    function success_login(){
+      alert("Đăng nhập thành công");
+    }
+  </script>
 </body>
 </html>
