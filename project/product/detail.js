@@ -28,4 +28,10 @@ minus.addEventListener("click", ()=>{
         num.innerText = a;
     }
 });
+
+
+//
+function addproduct(){
+    alert("Đã thêm sản phẩm vào giỏ hàng!")
+}
      
