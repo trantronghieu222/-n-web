@@ -483,7 +483,7 @@ window.onclick = function(event) {
 }
 
 /*Dropdown 4*/
-function myFunction4() {
+/*function myFunction4() {
     document.getElementById("Dropdown4").classList.toggle("show");
 }
           
@@ -499,4 +499,4 @@ window.onclick = function(event) {
             }
         }
     }
-}
+}*/

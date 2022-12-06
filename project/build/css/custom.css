@@ -42,6 +42,7 @@
     color: var(--color1);
     font-size: 1.3rem;
 }
+/**/
 .add-product:hover{
     opacity: 0.85;
 }
